@@ -12,7 +12,7 @@ n이 양의 정수 x의 제곱이라면 x+1의 제곱을 리턴하고, n이 양�
 
 ## 소스 코드
 
-```
+```javascript
 
 function solution(n) {
     let answer = Math.sqrt(n)
