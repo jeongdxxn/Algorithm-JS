@@ -18,7 +18,7 @@ number 타입을 리턴해야합니다.
 함수 fibonacci가 반드시 재귀함수일 필요는 없습니다.
   
 ### 입출력 예시
-```
+```javascript
 let output = fibonacci(0);
 console.log(output); // --> 0
 
