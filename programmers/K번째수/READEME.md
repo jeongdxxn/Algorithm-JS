@@ -16,19 +16,11 @@ array의 2번째부터 5번째까지 자르면 [5, 2, 6, 3]입니다.
 - commands의 길이는 1 이상 50 이하입니다.
 - commands의 각 원소는 길이가 3입니다.  
 
-## 소스 코드
+## 문제 코드
 
 ```
 function solution(array, commands) {
-  let answer = [];
-  for (let i = 0; i < commands.length; i++) {
-    let newArr = array.slice(commands[i][0] - 1, commands[i][1]);
-    newArr.sort((a, b) => a - b);
-    answer.push(newArr[commands[i][2] - 1]);
-  }
-  return answer;
+    var answer = [];
+    return answer;
 }
 ```  
-
-## 문제 풀이
-1. 
