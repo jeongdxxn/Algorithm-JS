@@ -1,3 +1,4 @@
 function solution(s) {
-  // s는 기본적으로 string 타입 => "a234"
+  // '==' 는 서로 다른 유형의 두 변수의 값만 비교, 자료형은 판단x
+  return (s.length === 4 || s.length === 6) && s == parseInt(s);
 }
